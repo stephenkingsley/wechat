@@ -1,0 +1,28 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "electron wechat app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenkingsley/wechat.git"
+  },
+  "keywords": [
+    "electron",
+    "wechat"
+  ],
+  "author": "stephen.K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenkingsley/wechat/issues"
+  },
+  "homepage": "https://github.com/stephenkingsley/wechat#readme",
+  "devDependencies": {
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.2.1"
+  }
+}
